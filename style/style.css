@@ -1,4 +1,10 @@
 body {
   font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: lightslategray;
 }
-
+header {
+  background-color: rgb(95, 77, 95, 0.4);
+  
+}
