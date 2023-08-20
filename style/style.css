@@ -20,3 +20,48 @@ img {
   z-index: -1;
   opacity: 80%;
 }
+
+header {
+  margin-top: 0;
+  text-align: center;
+}
+
+#header-greet {
+  font-size: 5rem;
+  margin: 0;
+  margin-bottom: 30;
+}
+
+#quote {
+  width: 100%;
+  background-color: rgb(95, 77, 95, 0.4);
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#quote span {
+  display: block;
+}
+
+#clock-part {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: black;
+  margin-top: 50px;
+}
+
+#todo-form {
+  text-align: center;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#todo-form span {
+  margin-right: 20px;
+}

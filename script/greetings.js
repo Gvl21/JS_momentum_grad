@@ -14,7 +14,7 @@ function onLoginSubmit(e) {
 }
 
 function greetings(e) {
-  greeting.textContent = `Hello. ${e}`;
+  greeting.textContent = `Hello!! ${e}!`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
